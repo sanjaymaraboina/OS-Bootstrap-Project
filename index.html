@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Bootstrap Project</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success px-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><h1 class="h3 text-dark">O' systems</h1></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-3">
+              <div class="dropdown">
+                <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </button>
+                <ul class="dropdown-menu bg-warning" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#Gallery">Gallery</a></li>
+                  <li><a class="dropdown-item" href="#OS Versions">OS Versions</a></li>
+                  <li><a class="dropdown-item" href="#Types of OS">Types of OS</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#Features">Features</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#Functions">Functions</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section class="container-fluid bg-dark py-5" id="Home">
+      <div
+        class="container d-md-flex justify-content-center align-items-center gap-5 text-center text-md-start"
+      >
+        <div>
+          <h1 class="h1 text-secondary">Welcome to Operating Systems</h1>
+          <p class="text-secondary">
+            An operating system (OS) is the program that, after being initially
+            loaded into the computer by a boot program, manages all of the other
+            application programs in a computer. The application programs make
+            use of the operating system by making requests for services through
+            a defined application program interface (API).
+          </p>
+        </div>
+        <div>
+          <img
+            src="./images/Operating-System-Functions.png"
+            class="img-fluid w-40"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- features -->
+
+    <section class="container my-5 bg-light" id="Features">
+      <h1 class="text-center display-4">Features</h1>
+      <hr class="w-25 mx-auto" />
+
+      <div
+        class="d-md-flex align-items-center justify-content-center gap-5 text-center text-md-start gap-3"
+      >
+        <img src="./images/112.png" class="img-fluid w-50 py-3" alt="" />
+
+        <div>
+          <h2>Features of O'Systems</h2>
+          <p>
+            The features of operating systems are increasing day by day. Because
+            at the starting development of the OS it was used to handle storage
+            taps but now it is working on GUI by throwing brilliant colors.The
+            operating system controls the primary memory or main memory.The OS
+            manages the order in which processes have access to the processor,
+            and how much processing time that each process must stay in the
+            multiprogramming environment. This is called process
+          </p>
+          <p>
+            scheduling.The OS manages the order in which processes have access
+            to multiprogramming environment. This is called process
+            scheduling.The OS manages the order in which processes have access
+            to the processor, and how much processing time that each process
+            must stay in the multiprogramming environment. This is called
+            process multiprogramming environment. This is called process
+            scheduling.The OS manages the order in which processes have access
+            to scheduling.
+          </p>
+          <button class="btn btn-outline-danger">know more</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- functions  -->
+    <div class="container my-5" id="Functions">
+      <h1 class="text-center display-4">Functions</h1>
+      <hr class="w-25 mx-auto" />
+      <div
+        class="d-lg-flex justify-content-center align-items-center gap-5 py-5"
+      >
+        <div class="card text-center mx-auto mx-lg-0 my-4" style="width: 17rem">
+          <img src="./images/proces.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Process Management</h5>
+            <p class="card-text">
+              Process management refers to the activities involved in managing
+              the execution of multiple processes in an operating system.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card text-center mx-auto mx-lg-0 my-4" style="width: 17rem">
+          <img src="./images/memory1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Memory Management</h5>
+            <p class="card-text">
+              The term memory can be defined as a collection of data in a
+              specific format. It is used to store instructions and process
+              data.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card text-center mx-auto mx-lg-0 my-4" style="width: 17rem">
+          <img src="./images/error.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Error Detection</h5>
+            <p class="card-text">
+              Error detection is most commonly realized using a suitable hash
+              (or specifically,a checksum,cyclic redundancy check a algorithm)
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card text-center mx-auto mx-lg-0 my-4" style="width: 17rem">
+          <img src="./images/secc.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Security</h5>
+            <p class="card-text">
+              The term security can be defined as a collection of data in a
+              specific format. It is used to store instructions data.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- gallery -->
+    <section class="container" id="Gallery">
+      <h1 class="text-center display-4">Gallery</h1>
+      <hr class="w-25 mx-auto" />
+      <div class="row my-4">
+        <div class="col-lg-4">
+          <img src="./images/img1.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img2.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img33.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img4.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img55.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img66.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img77.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img8.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img9.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img1010.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img11.jpg" class="img-fluid py-3" alt="" />
+        </div>
+        <div class="col-lg-4">
+          <img src="./images/img12.png" class="img-fluid py-3" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- table  -->
+    <section class="container my-5 bg-warning" id="OS Versions">
+      <h1 class="text-center display-4">OS versions</h1>
+      <hr class="w-25 mx-auto" />
+      <table class="table mt-5">
+        <thead>
+          <tr>
+            <th scope="col">Year</th>
+            <th scope="col">Company</th>
+            <th scope="col">Changes</th>
+            <th scope="col">Results</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1956</th>
+            <td>GM-NAA I/O</td>
+            <td>produced by General Motor</td>
+            <td>IBM 704</td>
+          </tr>
+          <tr>
+            <th scope="row">1960</th>
+            <td>IBM-I</td>
+            <td>Series of OS for its 360 series</td>
+            <td>Multics is developed</td>
+          </tr>
+          <tr>
+            <th scope="row">1970</th>
+            <td>Unix</td>
+            <td>circles and spawns</td>
+            <td>Unix became popular in C&S</td>
+          </tr>
+          <tr>
+            <th scope="row">1977</th>
+            <td>Apple ][ released</td>
+            <td>IOS stage</td>
+            <td>Made up as rare brand</td>
+          </tr>
+          <tr>
+            <th scope="row">1980</th>
+            <td>Computer</td>
+            <td>The home Computer</td>
+            <td>Home Computer Revolution started</td>
+          </tr>
+          <tr>
+            <th scope="row">1991</th>
+            <td>Linux</td>
+            <td>Released by LINUS Torvalds</td>
+            <td>Survived for years</td>
+          </tr>
+          <tr>
+            <th scope="row">1990</th>
+            <td>Windows</td>
+            <td>Windows OS came</td>
+            <td>Dominates Laptops and Desktops</td>
+          </tr>
+          <tr>
+            <th scope="row">1995</th>
+            <td>Windows</td>
+            <td>Windows 95 is released</td>
+            <td>Updated version of OS</td>
+          </tr>
+          <tr>
+            <th scope="row">2000</th>
+            <td>Unix</td>
+            <td>Invented LINUX</td>
+            <td>Dominates the Super Computer market</td>
+          </tr>
+          <tr>
+            <th scope="row">2008</th>
+            <td>Android</td>
+            <td>Android released based on linux kernel</td>
+            <td>Android starts in the mobile phones</td>
+          </tr>
+          <tr>
+            <th scope="row">2010</th>
+            <td>Apple</td>
+            <td>Iphone releases</td>
+            <td>Smart phones become Ubiquitous</td>
+          </tr>
+          <tr>
+            <th scope="row">2011</th>
+            <td>Opera</td>
+            <td>Opera shift released by Red Hat</td>
+            <td>One of most used search engine</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Types of OS  -->
+    <section class="container my-5" id="Types of OS">
+      <h1 class="text-center display-4">Types of OS</h1>
+      <hr class="w-25 mx-auto" />
+     <div class="operating-systems d-lg-flex justify-content-center align-items-center my-5 py-5 gap-5 ">
+      <div class="type1">
+        <div class="card text-white bg-primary mb-5" style="max-width: 18rem;">
+          <div class="card-header">Batch Operating System</div>
+          <div class="card-body">
+            <h5 class="card-title">Batch Operating System</h5>
+            <p class="card-text">This type of operating system does not interact with the computer directly. There is an operator which takes similar jobs having the same requirement and groups them into batches.</p>
+          </div>
+        </div>
+        <div class="card text-white bg-secondary mb-5" style="max-width: 18rem;">
+          <div class="card-header">Multi-Programming System</div>
+          <div class="card-body">
+            <h5 class="card-title">Multi-Programming System</h5>
+            <p class="card-text">Multiprogramming Operating Systems can be simply illustrated as more than one program is present in the main memory and any one of them can be kept in execution. </p>
+          </div>
+        </div>
+      </div>
+      <div class="type2">
+        <div class="card text-white bg-success mb-5" style="max-width: 18rem;">
+          <div class="card-header"> Multi-Processing Operating System</div>
+          <div class="card-body">
+            <h5 class="card-title"> Multi-Processing Operating System</h5>
+            <p class="card-text">Multi-Processing Operating System is a type of Operating System in which more than one CPU is used for the execution of the System Multi-Processing of  Operating System</p>
+          </div>
+        </div>
+        <div class="card text-white bg-danger mb-5" style="max-width: 18rem;">
+          <div class="card-header"> Multi-Tasking Operating System</div>
+          <div class="card-body">
+            <h5 class="card-title"> Multi-Tasking Operating System</h5>
+            <p class="card-text">Multitasking Operating System is simply a multiprogramming Operating System with having facility of a Round-Robin Scheduling Algorithm. It can run multiple programs  which contains the data and more simultaneously.</p>
+          </div>
+        </div>
+      </div>
+      <div class="type3">
+        <div class="card text-dark bg-warning mb-5" style="max-width: 18rem;">
+          <div class="card-header">Time-Sharing Operating Systems</div>
+          <div class="card-body">
+            <h5 class="card-title">Time-Sharing Operating Systems</h5>
+            <p class="card-text">Each task is given some time to execute  These systems are also known so that all the tasks work smoothly. Each user gets the time of the CPU as they use a single system. These systems are also known as Multitasking Systems.</p>
+          </div>
+        </div>
+        <div class="card text-dark bg-info mb-5" style="max-width: 18rem;">
+          <div class="card-header"> Distributed Operating System</div>
+          <div class="card-body">
+            <h5 class="card-title"> Distributed Operating System</h5>
+            <p class="card-text">These types of operating system  that  advancement in the world of computer technology and are being widely accepted all over the world and, that too, operating system that can changes the at a great pace.</p>
+          </div>
+        </div>
+      </div>
+      <div class="type4">
+        <div class="card text-dark bg-light mb-5" style="max-width: 18rem;">
+          <div class="card-header">Network Operating System</div>
+          <div class="card-body">
+            <h5 class="card-title">Network Operating System</h5>
+            <p class="card-text">These systems run on a server operating systems allow and provide the capability to manage data, users, groups, security, applications,  networking functions.</p>
+          </div>
+        </div>
+        <div class="card text-white bg-dark mb-5" style="max-width: 18rem;">
+          <div class="card-header">Real-Time Operating System</div>
+          <div class="card-body">
+            <h5 class="card-title">Real-Time O' System</h5>
+            <p class="card-text">The time interval required to process and  Real-time systems are used when there are time requirements that are very strict like missile systems,and  robots, etc. </p>
+          </div>
+        </div>
+      </div>
+      
+     </div>
+    </section>
+
+    <!-- contact  -->
+    <div class="container my-5 w-75" id="Contact">
+      <h1 class="text-center display-4">Contact</h1>
+      <hr class="w-25 mx-auto" />
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Phone number</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <button type="submit" class="btn btn-outline-danger btn-lg">
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <!-- footer  -->
+    <footer></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
